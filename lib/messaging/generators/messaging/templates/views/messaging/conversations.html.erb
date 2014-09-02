@@ -15,8 +15,12 @@
       <%% end %>
     </div>
     <div class="message">
-      <%%= m.message  %>
-      <%%= m.seen ? "seen" : "sent" %>
+      <%= m.message  %>
+      <%= m.seen ? "seen" : "sent"  %>
     </div>
   <%% end %>
 </div>
+<%%= form_tag("/message/#{@to}") do  %>
+  <%%= text_field_tag(:message)  %>
+  <%%= submit_tag("Send")  %>
+<%% end %>
