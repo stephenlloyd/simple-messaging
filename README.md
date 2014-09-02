@@ -9,14 +9,17 @@ Simple messaging provides you with the bare basic messaging for a rails applicat
 ### Getting started
 
 install the gem:
+
 `gem install simple-messaging`
 
 install in your rails app:
+
 `rails generate messaging:install`
 
 `bin/rake db:migrate`
 
 You will now have 3 paths between two users
+
 gets:
 `
 /message/:from_id
