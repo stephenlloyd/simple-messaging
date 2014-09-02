@@ -21,14 +21,13 @@ install in your rails app:
 You will now have 3 paths between two users
 
 gets:
-`
-/message/:from_id
 
-/messages
-`
+`/message/:from_id`
+`/messages`
 
 post: 
-`
-/message/:to_id
-`
+
+
+`/message/:to_id`
+
 
