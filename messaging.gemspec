@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'messaging/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "simple_messaging"
+  spec.name          = "simple-messaging"
   spec.version       = Messaging::VERSION
   spec.authors       = ["Stephen Lloyd"]
   spec.email         = ["stephen.lloyd85@gmail.com"]
