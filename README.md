@@ -23,6 +23,7 @@ You will now have 3 paths between two users
 gets:
 
 `/message/:from_id`
+
 `/messages`
 
 post: 
