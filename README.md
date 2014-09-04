@@ -31,4 +31,8 @@ post:
 
 `/message/:to_id`
 
+####
+notes:
+There must be a current_user logged in for messages to be exchanged
+
 
